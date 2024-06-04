@@ -11,7 +11,7 @@ export default function Formelrad() {
         p: ""
     })
 
-    const handleSubmit = (event) => {
+const handleSubmit = (event) => {
         event.preventDefault();
         console.log("handleSubmit")
         if (values.u === "" && values.i === "") {
